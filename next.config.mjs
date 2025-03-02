@@ -35,8 +35,14 @@ const nextConfig = {
       },
       {
         source: "/",
-        destination: "/index.html",
+        destination: "/community.html",
         has: [{ type: "host", value: "www.islandbitcoin.com" }],
+        permanent: true,
+      },
+      {
+        source: "/",
+        destination: "/index.html",
+        has: [{ type: "host", value: "www.taddesse.xyz" }],
         permanent: true,
       },
     ];
